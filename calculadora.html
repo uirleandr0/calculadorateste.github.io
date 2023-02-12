@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <section class="calculadora">
+        <h2>Calculadora</h2>
+        <p id="resultado"></p>
+        <div>
+            <button id="botao" onclick="resetar()">C</button>
+            <button id="botao" onclick="apagar()"><</button>
+            <button id="botao" onclick="inserir('/')">/</button>
+            <button id="botao" onclick="inserir('-')">-</button>
+        </div>
+        <div>
+            <button id="botao" onclick="inserir('7')">7</button>
+            <button id="botao" onclick="inserir('8')">8</button>
+            <button id="botao" onclick="inserir('9')">9</button>
+            <button id="botao" onclick="inserir('*')">*</button>
+        </div>
+        <div>
+            <button id="botao" onclick="inserir('4')">4</button>
+            <button id="botao" onclick="inserir('5')">5</button>
+            <button id="botao" onclick="inserir('6')">6</button>
+            <button id="botao" onclick="inserir('+')">+</button>
+        </div>
+        <div>
+            <button id="botao" onclick="inserir('1')">1</button>
+            <button id="botao" onclick="inserir('2')">2</button>
+            <button id="botao" onclick="inserir('3')">3</button>
+            <button id="botao" onclick="inserir('0')">0</button>
+        </div>
+        <div>
+            <button class="botaoIgual" onclick="somar()">=</button>
+            <button id="botao" onclick="inserir('.')">.</button>
+        </div>
+    </section>
+
+    <script src="./calculadora.js"></script>
+</body>
+</html>
