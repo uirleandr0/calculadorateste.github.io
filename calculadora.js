@@ -1,6 +1,6 @@
 function inserir(num){
     let valor = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = valor + num;
+    document.getElementById('resultado').innerHTML = valor + num;      
 }
 
 function resetar(){
@@ -18,3 +18,5 @@ function somar(){
         document.getElementById('resultado').innerHTML = eval(resultado);
     }
 }
+
+

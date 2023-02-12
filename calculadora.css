@@ -4,7 +4,7 @@
 }
 
 .calculadora{
-    background-color: green;
+    background-color: rgba(33, 31, 31, 0.689);
     width: fit-content;
     margin: auto;
     margin-top: 20%;
@@ -16,15 +16,21 @@ p{
     background-color: white;
     width: 100%;
     height: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 div{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    
 }
 button{
     width: 25px;
     height: 25px;
+    background-color: black;
+    color: white;
 }
 .botaoIgual{
     width: 95px;
